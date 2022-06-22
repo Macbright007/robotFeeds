@@ -13,10 +13,10 @@ This aim of the project is to help the developer get a better understading of Re
  * react styled-components: for styling 
  * axios: for making Api calls
  * An API: 
-  - GET: "https://blog-api344.herokuapp.com/blogposts" 
-  - POST: "https://blog-api344.herokuapp.com/blogposts/:id" 
-  - DELETE:
-  - PATCH:
+    - GET: "https://blog-api344.herokuapp.com/blogposts" 
+    - POST: "https://blog-api344.herokuapp.com/blogposts/:id" 
+    - DELETE:
+    - PATCH:
 
 
 # Getting Started with the App
