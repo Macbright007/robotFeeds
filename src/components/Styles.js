@@ -22,13 +22,12 @@ export const Logo = styled.div`
 export const Container = styled.div`
     width: 100%;
     max-width: 400px;
-    margin: 100px 250px;
+    margin: 100px 300px;
     font-family: cursive;
 `
 
 // styling for feedNav
 export const FeedContainer = styled.div`
-    // border: 2px solid red;
     width: 100%;
     height: 20vh;
     max-width: 600px;
@@ -36,38 +35,40 @@ export const FeedContainer = styled.div`
     position: fixed;
     z-index: -1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: cursive;
 `
 export const InnerCont = styled.div`
     h1{
-        font-size: 28px;
-        letter-spacing: -1.5px;
+        font-size: 35px;
+        letter-spacing: 1.5px;
     }
 
     p{
-        font-size: 10px;
+        font-size: 13px;
         margin-top: -20px;
     }
 `
 
-export const LeftCont = styled.button`
-    border: none;
-    border-radius: 20px;
-    padding: 17px;
-    height: 20px;
-    background: rgb(151, 87, 206);
-    display: flex;
-    margin-top: 25px;
-    cursor: pointer;
+// export const LeftCont = styled.button`
+//     border: none;
+//     border-radius: 20px;
+//     padding: 17px;
+//     height: 20px;
+//     background: rgb(151, 87, 206);
+//     display: flex;
+//     margin-top: 25px;
+//     cursor: pointer;
 
-    h4{
-        margin-top: -7px;
-        margin-left: 10px;
-        color: #fff;
-        font-size: 15px;
-    }
-`
+//     h4{
+//         margin-top: -7px;
+//         margin-left: 10px;
+//         color: #fff;
+//         font-size: 15px;
+//     }
+// `
+
+
 // styling for card component
 export const Card = styled.div`
     background: rgba(2, 2, 70, 0.359);
@@ -103,7 +104,7 @@ export const Paragraph = styled.p`
     border-right: 0;
     border-radius: 25px;
     position: fixed;
-    right: 20px;
+    right: 50px;
     width: 100%;
     max-width: 300px;
     height: 70vh;
